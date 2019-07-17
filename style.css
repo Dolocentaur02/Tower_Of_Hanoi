@@ -21,53 +21,49 @@ body {
 }
 
 main {
-    display:grid;
+    display: grid;
     grid-row: 2;
     grid-column: 2;
     border: 2px solid black
 }
 
 .gameboard {
-    display:grid;
+    display: grid;
     border: 10px solid black;
     background: whitesmoke;
     position: center;
-    
 }
 
 .box {
-    display: grid;    
+    display: grid;
     grid-template-columns: 20px 20px 20px;
     border-radius: 10px;
     /* height: 150px;
     width: 20Px; */
     background: rgb(184, 221, 186);
-   margin: auto;
+    margin: auto;
 }
 
-.box1{
+.box1 {
     border: 2px solid black;
     grid-column: 1;
     height: 300px;
     width: 300px;
 }
 
-.box2{
+.box2 {
     border: 2px solid black;
     grid-column: 2;
     height: 300px;
     width: 300px;
-
 }
 
-.box3{
+.box3 {
     border: 2px solid black;
     grid-column: 3;
     height: 300px;
     width: 300px;
 }
-
-
 
 footer {
     grid-row: 3;
