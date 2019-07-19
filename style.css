@@ -31,63 +31,64 @@ main {
 .gameboard {
     display: grid;
     border: 10px solid black;
-    background: whitesmoke;
     position: center;
+    background: goldenrod;
 }
 
 .box {
     display: grid;
     grid-template-columns: 20px 20px 20px;
     border-radius: 10px;
-    /* height: 150px;
-    width: 20Px; */
-    background: rgb(184, 221, 186);
+    background: rgba(20, 37, 41, 0.781);
     margin: auto;
 }
 
 .box1 {
-    display: grid;
-    grid-template-columns:100px;
-    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid gold;
     grid-column: 1;
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
 }
 
-.block1{
-    border: 2px solid brown;
-    height: 25px;
+.block1 {
+    border-radius: 15px;
+    height: 15px;
     width: 50px;
-    margin:auto 175px;
+    margin: auto 175px;
+    background: red;
 }
 
-.block2{
-    border: 2px solid brown;
-    height: 50px;
+.block2 {
+    border-radius: 25px;
+    height: 25px;
     width: 100px;
-    margin:auto 150px;
-
+    margin: auto 150px;
+    background: yellow;
 }
 
-.block3{
-    border: 2px solid brown;
-    height: 65px;
+.block3 {
+    border-radius: 25px;
+    height: 45px;
     width: 125px;
-    margin:auto 135px;
+    margin: auto 135px;
+    background: blue;
 }
 
 .box2 {
-    border: 2px solid black;
+    border: 2px solid gold;
     grid-column: 2;
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
 }
 
 .box3 {
-    border: 2px solid black;
+    border: 2px solid gold;
     grid-column: 3;
-    height: 400px;
-    width: 400px;
+    height: 250px;
+    width: 250px;
 }
 
 footer {
@@ -106,4 +107,4 @@ footer {
     grid-row: 2;
     grid-column: 3;
     border: 2px solid black
-}   
+}
