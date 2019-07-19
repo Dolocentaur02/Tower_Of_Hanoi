@@ -12,7 +12,6 @@ body {
 
 header {
     text-align: center;
-    border: 2px solid black;
     grid-row: 1;
     grid-column: 1 / span 3;
 }
@@ -26,12 +25,10 @@ main {
     display: grid;
     grid-row: 2;
     grid-column: 2;
-    border: 2px solid black
 }
 
 .gameboard {
     display: grid;
-    border: 10px solid black;
     position: center;
     background: goldenrod;
 }
@@ -39,7 +36,6 @@ main {
 .box {
     display: grid;
     grid-template-columns: 20px 20px 20px;
-    border-radius: 10px;
     background: rgba(20, 37, 41, 0.781);
     margin: auto;
 }
@@ -101,7 +97,6 @@ main {
 footer {
     grid-row: 3;
     grid-column: 1 / span 3;
-    border: 2px solid black
 }
 
 .left {
@@ -114,5 +109,4 @@ footer {
 .right {
     grid-row: 2;
     grid-column: 3;
-    border: 2px solid black
 }

@@ -59,8 +59,8 @@ box3.addEventListener('click', function () {
 
 function first() {
 
-    if (box1.firstElementChild) {
-        box1.insertBefore(blocks[1])
+    if ((box1 = blocks[1])&&(box1 = blocks[2])){
+      Console.log("Really")
 
     }
 }
