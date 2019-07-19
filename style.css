@@ -5,7 +5,7 @@ body {
     width: 100vw;
     display: grid;
     grid-template-rows: 80px 1fr 80px;
-    grid-template-columns: 100px 1fr 100px;
+    grid-template-columns: 150px 1fr 150px;
     background: burlywood;
 }
 
@@ -100,7 +100,9 @@ footer {
 .left {
     grid-row: 2;
     grid-column: 1;
-    border: 2px solid black
+    border: 2px solid black;
+    margin: auto;
+    padding: 20px 20px;
 }
 
 .right {
